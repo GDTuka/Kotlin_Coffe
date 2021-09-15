@@ -49,13 +49,13 @@ class MainActivity : AppCompatActivity() {
         plusButton?.setOnClickListener{
             count++
             price = count*5
-            priceTextView?.text = price.toString()
+            priceTextView?.text = "$${price}"
             countTextView?.text = count.toString()
         }
         minusButton?.setOnClickListener{
             count--
             price = count*5
-            priceTextView?.text = price.toString()
+            priceTextView?.text = "${price}"
             countTextView?.text = count.toString()
         }
         makeOrder?.setOnClickListener{

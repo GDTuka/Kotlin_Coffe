@@ -4,18 +4,17 @@
      android:layout_width="410dp">
     <LinearLayout
         android:layout_height="200dp"
-        android:layout_width="200dp"
+        android:layout_width="220dp"
         android:orientation="vertical"
         >
         <TextView
-            android:text="quantity"
+            android:text="Coffe order App"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="16dp"/>
         <TextView
-            android:id="@+id/count"
-            android:text="0"
+            android:text="Chose how many coffe you want"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:layout_marginLeft="10dp"
@@ -35,7 +34,8 @@
             android:text="-"
             />
         <TextView
-            android:text="3"
+            android:id="@+id/count"
+            android:text="0"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:layout_marginLeft="8dp"
